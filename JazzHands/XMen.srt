@@ -1,0 +1,44 @@
+﻿1
+00:00:00,000 --> 00:00:05,000
+<font color="#FFFF00">SP3Subteam</font>
+<font color=#00FFFF>https://www.facebook.com/SP3Subteam</font>
+
+2
+00:00:09,890 --> 00:00:11,910
+I saw the end of the world.
+
+3
+00:00:13,280 --> 00:00:16,710
+I could feel all this death.
+
+4
+00:00:16,810 --> 00:00:19,480
+Jean,
+it was just a dream.
+
+5
+00:00:29,020 --> 00:00:31,720
+<font color="#969696">En Sabah Nur:</font>
+<i>I've been called many things over many lifetimes:</i>
+
+6
+00:00:34,040 --> 00:00:37,360
+<i>Ra, Krishna, Yahweh.</i>
+
+7
+00:00:38,040 --> 00:00:40,110
+<font color="#969696">Moira MacTaggert:</font>
+<i>Ever since the world found out about mutants...</i>
+
+8
+00:00:40,280 --> 00:00:42,180
+<i>There have been secret societies...</i>
+
+9
+00:00:42,180 --> 00:00:45,910
+<i>who see them as some kind of second coming or sign of god. </i>
+
+10
+00:00:46,370 --> 00:00:48,850
+<i>They believe that tens of thousands of years ago,</i>
+

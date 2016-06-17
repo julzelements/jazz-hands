@@ -8,11 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		2B2F202F1D138341000A7A51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2F202E1D138341000A7A51 /* AppDelegate.swift */; };
-		2B2F20311D138341000A7A51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2F20301D138341000A7A51 /* ViewController.swift */; };
-		2B2F20341D138341000A7A51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F20321D138341000A7A51 /* Main.storyboard */; };
 		2B2F20361D138341000A7A51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F20351D138341000A7A51 /* Assets.xcassets */; };
 		2B2F20391D138341000A7A51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F20371D138341000A7A51 /* LaunchScreen.storyboard */; };
 		2B2F20441D138341000A7A51 /* JazzHandsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2F20431D138341000A7A51 /* JazzHandsTests.swift */; };
+		2B2F204F1D1383B1000A7A51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F204E1D1383B1000A7A51 /* Main.storyboard */; };
+		2B2F20501D1383B1000A7A51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F204E1D1383B1000A7A51 /* Main.storyboard */; };
+		2B2F20581D1383C5000A7A51 /* SRTTimeEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2F20511D1383C5000A7A51 /* SRTTimeEntry.swift */; };
+		2B2F20591D1383C5000A7A51 /* SRTTimeEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2F20511D1383C5000A7A51 /* SRTTimeEntry.swift */; };
+		2B2F205A1D1383C5000A7A51 /* ScrollingSRTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2F20521D1383C5000A7A51 /* ScrollingSRTViewController.swift */; };
+		2B2F205B1D1383C5000A7A51 /* ScrollingSRTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2F20521D1383C5000A7A51 /* ScrollingSRTViewController.swift */; };
+		2B2F205C1D1383C5000A7A51 /* Stanza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2F20531D1383C5000A7A51 /* Stanza.swift */; };
+		2B2F205D1D1383C5000A7A51 /* Stanza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2F20531D1383C5000A7A51 /* Stanza.swift */; };
+		2B2F205E1D1383C5000A7A51 /* Subtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2F20541D1383C5000A7A51 /* Subtitle.swift */; };
+		2B2F205F1D1383C5000A7A51 /* Subtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2F20541D1383C5000A7A51 /* Subtitle.swift */; };
+		2B2F20601D1383C5000A7A51 /* SubtitleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2F20551D1383C5000A7A51 /* SubtitleIO.swift */; };
+		2B2F20611D1383C5000A7A51 /* SubtitleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2F20551D1383C5000A7A51 /* SubtitleIO.swift */; };
+		2B2F20621D1383C5000A7A51 /* XMen.srt in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F20561D1383C5000A7A51 /* XMen.srt */; };
+		2B2F20631D1383C5000A7A51 /* XMen.srt in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F20561D1383C5000A7A51 /* XMen.srt */; };
+		2B2F20641D1383C5000A7A51 /* Test.srt in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F20571D1383C5000A7A51 /* Test.srt */; };
+		2B2F20651D1383C5000A7A51 /* Test.srt in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F20571D1383C5000A7A51 /* Test.srt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +42,20 @@
 /* Begin PBXFileReference section */
 		2B2F202B1D138341000A7A51 /* JazzHands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JazzHands.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B2F202E1D138341000A7A51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2B2F20301D138341000A7A51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2B2F20331D138341000A7A51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B2F20351D138341000A7A51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B2F20381D138341000A7A51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B2F203A1D138341000A7A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B2F203F1D138341000A7A51 /* JazzHandsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JazzHandsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B2F20431D138341000A7A51 /* JazzHandsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JazzHandsTests.swift; sourceTree = "<group>"; };
 		2B2F20451D138341000A7A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B2F204E1D1383B1000A7A51 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2B2F20511D1383C5000A7A51 /* SRTTimeEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SRTTimeEntry.swift; sourceTree = "<group>"; };
+		2B2F20521D1383C5000A7A51 /* ScrollingSRTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingSRTViewController.swift; sourceTree = "<group>"; };
+		2B2F20531D1383C5000A7A51 /* Stanza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stanza.swift; sourceTree = "<group>"; };
+		2B2F20541D1383C5000A7A51 /* Subtitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subtitle.swift; sourceTree = "<group>"; };
+		2B2F20551D1383C5000A7A51 /* SubtitleIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtitleIO.swift; sourceTree = "<group>"; };
+		2B2F20561D1383C5000A7A51 /* XMen.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XMen.srt; sourceTree = "<group>"; };
+		2B2F20571D1383C5000A7A51 /* Test.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Test.srt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +98,17 @@
 			isa = PBXGroup;
 			children = (
 				2B2F202E1D138341000A7A51 /* AppDelegate.swift */,
-				2B2F20301D138341000A7A51 /* ViewController.swift */,
-				2B2F20321D138341000A7A51 /* Main.storyboard */,
 				2B2F20351D138341000A7A51 /* Assets.xcassets */,
+				2B2F204E1D1383B1000A7A51 /* Main.storyboard */,
 				2B2F20371D138341000A7A51 /* LaunchScreen.storyboard */,
 				2B2F203A1D138341000A7A51 /* Info.plist */,
+				2B2F20511D1383C5000A7A51 /* SRTTimeEntry.swift */,
+				2B2F20521D1383C5000A7A51 /* ScrollingSRTViewController.swift */,
+				2B2F20531D1383C5000A7A51 /* Stanza.swift */,
+				2B2F20541D1383C5000A7A51 /* Subtitle.swift */,
+				2B2F20551D1383C5000A7A51 /* SubtitleIO.swift */,
+				2B2F20561D1383C5000A7A51 /* XMen.srt */,
+				2B2F20571D1383C5000A7A51 /* Test.srt */,
 			);
 			path = JazzHands;
 			sourceTree = "<group>";
@@ -179,9 +205,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B2F204F1D1383B1000A7A51 /* Main.storyboard in Resources */,
 				2B2F20391D138341000A7A51 /* LaunchScreen.storyboard in Resources */,
 				2B2F20361D138341000A7A51 /* Assets.xcassets in Resources */,
-				2B2F20341D138341000A7A51 /* Main.storyboard in Resources */,
+				2B2F20641D1383C5000A7A51 /* Test.srt in Resources */,
+				2B2F20621D1383C5000A7A51 /* XMen.srt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +217,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B2F20651D1383C5000A7A51 /* Test.srt in Resources */,
+				2B2F20501D1383B1000A7A51 /* Main.storyboard in Resources */,
+				2B2F20631D1383C5000A7A51 /* XMen.srt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,8 +230,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B2F20311D138341000A7A51 /* ViewController.swift in Sources */,
+				2B2F205C1D1383C5000A7A51 /* Stanza.swift in Sources */,
 				2B2F202F1D138341000A7A51 /* AppDelegate.swift in Sources */,
+				2B2F20581D1383C5000A7A51 /* SRTTimeEntry.swift in Sources */,
+				2B2F20601D1383C5000A7A51 /* SubtitleIO.swift in Sources */,
+				2B2F205A1D1383C5000A7A51 /* ScrollingSRTViewController.swift in Sources */,
+				2B2F205E1D1383C5000A7A51 /* Subtitle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +243,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B2F205D1D1383C5000A7A51 /* Stanza.swift in Sources */,
 				2B2F20441D138341000A7A51 /* JazzHandsTests.swift in Sources */,
+				2B2F20591D1383C5000A7A51 /* SRTTimeEntry.swift in Sources */,
+				2B2F20611D1383C5000A7A51 /* SubtitleIO.swift in Sources */,
+				2B2F205B1D1383C5000A7A51 /* ScrollingSRTViewController.swift in Sources */,
+				2B2F205F1D1383C5000A7A51 /* Subtitle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,14 +263,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2B2F20321D138341000A7A51 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2B2F20331D138341000A7A51 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2B2F20371D138341000A7A51 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
