@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B2F202F1D138341000A7A51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2F202E1D138341000A7A51 /* AppDelegate.swift */; };
+		2B2F20311D138341000A7A51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2F20301D138341000A7A51 /* ViewController.swift */; };
+		2B2F20341D138341000A7A51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F20321D138341000A7A51 /* Main.storyboard */; };
+		2B2F20361D138341000A7A51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F20351D138341000A7A51 /* Assets.xcassets */; };
+		2B2F20391D138341000A7A51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F20371D138341000A7A51 /* LaunchScreen.storyboard */; };
+		2B2F20441D138341000A7A51 /* JazzHandsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2F20431D138341000A7A51 /* JazzHandsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B2F20401D138341000A7A51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B2F20231D138341000A7A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B2F202A1D138341000A7A51;
+			remoteInfo = JazzHands;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B2F202B1D138341000A7A51 /* JazzHands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JazzHands.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2F202E1D138341000A7A51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B2F20301D138341000A7A51 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B2F20331D138341000A7A51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B2F20351D138341000A7A51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B2F20381D138341000A7A51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B2F203A1D138341000A7A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B2F203F1D138341000A7A51 /* JazzHandsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JazzHandsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B2F20431D138341000A7A51 /* JazzHandsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JazzHandsTests.swift; sourceTree = "<group>"; };
+		2B2F20451D138341000A7A51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B2F20281D138341000A7A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2F203C1D138341000A7A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B2F20221D138341000A7A51 = {
+			isa = PBXGroup;
+			children = (
+				2B2F202D1D138341000A7A51 /* JazzHands */,
+				2B2F20421D138341000A7A51 /* JazzHandsTests */,
+				2B2F202C1D138341000A7A51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B2F202C1D138341000A7A51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B2F202B1D138341000A7A51 /* JazzHands.app */,
+				2B2F203F1D138341000A7A51 /* JazzHandsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B2F202D1D138341000A7A51 /* JazzHands */ = {
+			isa = PBXGroup;
+			children = (
+				2B2F202E1D138341000A7A51 /* AppDelegate.swift */,
+				2B2F20301D138341000A7A51 /* ViewController.swift */,
+				2B2F20321D138341000A7A51 /* Main.storyboard */,
+				2B2F20351D138341000A7A51 /* Assets.xcassets */,
+				2B2F20371D138341000A7A51 /* LaunchScreen.storyboard */,
+				2B2F203A1D138341000A7A51 /* Info.plist */,
+			);
+			path = JazzHands;
+			sourceTree = "<group>";
+		};
+		2B2F20421D138341000A7A51 /* JazzHandsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B2F20431D138341000A7A51 /* JazzHandsTests.swift */,
+				2B2F20451D138341000A7A51 /* Info.plist */,
+			);
+			path = JazzHandsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B2F202A1D138341000A7A51 /* JazzHands */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B2F20481D138341000A7A51 /* Build configuration list for PBXNativeTarget "JazzHands" */;
+			buildPhases = (
+				2B2F20271D138341000A7A51 /* Sources */,
+				2B2F20281D138341000A7A51 /* Frameworks */,
+				2B2F20291D138341000A7A51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JazzHands;
+			productName = JazzHands;
+			productReference = 2B2F202B1D138341000A7A51 /* JazzHands.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B2F203E1D138341000A7A51 /* JazzHandsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B2F204B1D138341000A7A51 /* Build configuration list for PBXNativeTarget "JazzHandsTests" */;
+			buildPhases = (
+				2B2F203B1D138341000A7A51 /* Sources */,
+				2B2F203C1D138341000A7A51 /* Frameworks */,
+				2B2F203D1D138341000A7A51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B2F20411D138341000A7A51 /* PBXTargetDependency */,
+			);
+			name = JazzHandsTests;
+			productName = JazzHandsTests;
+			productReference = 2B2F203F1D138341000A7A51 /* JazzHandsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B2F20231D138341000A7A51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Julian Scharf";
+				TargetAttributes = {
+					2B2F202A1D138341000A7A51 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 32XXXP7QP9;
+					};
+					2B2F203E1D138341000A7A51 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 32XXXP7QP9;
+						TestTargetID = 2B2F202A1D138341000A7A51;
+					};
+				};
+			};
+			buildConfigurationList = 2B2F20261D138341000A7A51 /* Build configuration list for PBXProject "JazzHands" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B2F20221D138341000A7A51;
+			productRefGroup = 2B2F202C1D138341000A7A51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B2F202A1D138341000A7A51 /* JazzHands */,
+				2B2F203E1D138341000A7A51 /* JazzHandsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B2F20291D138341000A7A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2F20391D138341000A7A51 /* LaunchScreen.storyboard in Resources */,
+				2B2F20361D138341000A7A51 /* Assets.xcassets in Resources */,
+				2B2F20341D138341000A7A51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2F203D1D138341000A7A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B2F20271D138341000A7A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2F20311D138341000A7A51 /* ViewController.swift in Sources */,
+				2B2F202F1D138341000A7A51 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2F203B1D138341000A7A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2F20441D138341000A7A51 /* JazzHandsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B2F20411D138341000A7A51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B2F202A1D138341000A7A51 /* JazzHands */;
+			targetProxy = 2B2F20401D138341000A7A51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B2F20321D138341000A7A51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B2F20331D138341000A7A51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B2F20371D138341000A7A51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B2F20381D138341000A7A51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B2F20461D138341000A7A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B2F20471D138341000A7A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B2F20491D138341000A7A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JazzHands/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.julzelements.JazzHands;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B2F204A1D138341000A7A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JazzHands/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.julzelements.JazzHands;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2B2F204C1D138341000A7A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JazzHandsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.julzelements.JazzHandsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JazzHands.app/JazzHands";
+			};
+			name = Debug;
+		};
+		2B2F204D1D138341000A7A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JazzHandsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.julzelements.JazzHandsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JazzHands.app/JazzHands";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B2F20261D138341000A7A51 /* Build configuration list for PBXProject "JazzHands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2F20461D138341000A7A51 /* Debug */,
+				2B2F20471D138341000A7A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B2F20481D138341000A7A51 /* Build configuration list for PBXNativeTarget "JazzHands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2F20491D138341000A7A51 /* Debug */,
+				2B2F204A1D138341000A7A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B2F204B1D138341000A7A51 /* Build configuration list for PBXNativeTarget "JazzHandsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2F204C1D138341000A7A51 /* Debug */,
+				2B2F204D1D138341000A7A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B2F20231D138341000A7A51 /* Project object */;
+}
