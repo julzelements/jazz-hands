@@ -41,7 +41,7 @@ class ScrollingSRTViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("SRTCell", forIndexPath: indexPath)
       if subtitle.stanzas[indexPath.row].linesString == "" {
-        cell.backgroundColor = UIColor.brownColor()
+        cell.backgroundColor = UIColor.darkGrayColor()
       }
 //      let label = tableView.viewWithTag(100) as! UILabel
 //      print(label.text)
