@@ -41,7 +41,7 @@ class ScrollingSRTViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("SRTCell", forIndexPath: indexPath)
       if subtitle.stanzas[indexPath.row].linesString == "" {
-        cell.backgroundColor = UIColor.blackColor()
+        cell.backgroundColor = UIColor.brownColor()
       }
 //      let label = tableView.viewWithTag(100) as! UILabel
 //      print(label.text)
@@ -54,11 +54,19 @@ class ScrollingSRTViewController: UITableViewController {
   {
     print("getting height for cell \(indexPath.row)")
     if let labelView = tableView.viewWithTag(100) {
-      let label = labelView as! UILabel
       let stanza: Stanza = subtitle.stanzas[indexPath.row]
-      
-      
-      label.text = "Start time: \(stanza.startTime)\n" + stanza.linesString + "\nDuration is \(stanza.duration)" + "\n End time: \(stanza.endTime)"
+      let label = labelView as! UILabel
+      let htmlStr =
+        "<b>Start time:</b> \(stanza.startTime)<br />" +
+        stanza.linesString + "<br />" +
+        "<b>Duration:</b> \(stanza.duration)<br />" +
+        "<b>End time:</b> \(stanza.endTime)"
+      let attrStr = try! NSAttributedString(
+        data: htmlStr.dataUsingEncoding(NSUnicodeStringEncoding, allowLossyConversion: true)!,
+        options: [ NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType],
+        documentAttributes: nil
+      )
+      label.attributedText = attrStr
       print(label.text)
       print(label.bounds.size.height)
       if let cellHeight = stanza.duration  {
