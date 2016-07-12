@@ -15,18 +15,13 @@ class ScrollingSRTViewController: UITableViewController {
   
     override func viewDidLoad() {
         super.viewDidLoad()
-      
       subtitleIO = SubtitleIO()
       let rawSubtitleStanzas = subtitleIO.openSRTFile("XMen")
-      
       subtitle = Subtitle(subtitleText: rawSubtitleStanzas)
-
     }
 
 
     // MARK: - Table view data source
-
-
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
@@ -52,17 +47,8 @@ class ScrollingSRTViewController: UITableViewController {
     if let labelView = tableView.viewWithTag(100) {
       let stanza: Stanza = subtitle.stanzas[indexPath.row]
       let label = labelView as! UILabel
-      let htmlStr =
-        "<b>Start time:</b> \(stanza.startTime)<br />" +
-        stanza.linesString + "<br />" +
-        "<b>Duration:</b> \(stanza.duration)<br />" +
-        "<b>End time:</b> \(stanza.endTime)"
-      let attrStr = try! NSAttributedString(
-        data: htmlStr.dataUsingEncoding(NSUnicodeStringEncoding, allowLossyConversion: true)!,
-        options: [ NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType],
-        documentAttributes: nil
-      )
-      label.attributedText = attrStr
+      let attributedString = formatStanza(stanza)
+      label.attributedText = attributedString
       print(label.text)
       print(label.bounds.size.height)
       if let cellHeight = stanza.duration  {
@@ -70,6 +56,20 @@ class ScrollingSRTViewController: UITableViewController {
       }
     }
     return 100.0
+  }
+  
+  func formatStanza(stanza: Stanza) -> NSAttributedString {
+    let htmlStr =
+      "<b>Start time:</b> \(stanza.startTime)<br />" +
+        stanza.linesString + "<br />" +
+        "<b>Duration:</b> \(stanza.duration)<br />" +
+        "<b>End time:</b> \(stanza.endTime)"
+    let attributtedString = try! NSAttributedString(
+      data: htmlStr.dataUsingEncoding(NSUnicodeStringEncoding, allowLossyConversion: true)!,
+      options: [ NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType],
+      documentAttributes: nil
+    )
+    return attributtedString
   }
  
 }
