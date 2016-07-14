@@ -8,7 +8,7 @@
         <!--ScrollingSRT View Controller-->
         <scene sceneID="lZB-JG-AST">
             <objects>
-                <tableViewController id="OH7-Ag-fbc" customClass="ScrollingSRTViewController" customModule="TDD" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="OH7-Ag-fbc" customClass="ScrollingSRTViewController" customModule="JazzHands" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="206" sectionHeaderHeight="28" sectionFooterHeight="28" id="CUp-lf-VdJ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -18,7 +18,7 @@
                                 <rect key="frame" x="0.0" y="28" width="600" height="206"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sKj-Vb-NXl" id="2fW-40-snk">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="205"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="205.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iww-Y3-Rul">
@@ -28,11 +28,13 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <gestureRecognizers/>
                                     <constraints>
                                         <constraint firstItem="iww-Y3-Rul" firstAttribute="centerY" secondItem="2fW-40-snk" secondAttribute="centerY" id="2cv-p3-Xzu"/>
                                         <constraint firstItem="iww-Y3-Rul" firstAttribute="centerX" secondItem="2fW-40-snk" secondAttribute="centerX" id="Vgj-5i-7zF"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <gestureRecognizers/>
                             </tableViewCell>
                         </prototypes>
                         <connections>

@@ -27,6 +27,9 @@
 		2B2F20631D1383C5000A7A51 /* XMen.srt in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F20561D1383C5000A7A51 /* XMen.srt */; };
 		2B2F20641D1383C5000A7A51 /* Test.srt in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F20571D1383C5000A7A51 /* Test.srt */; };
 		2B2F20651D1383C5000A7A51 /* Test.srt in Resources */ = {isa = PBXBuildFile; fileRef = 2B2F20571D1383C5000A7A51 /* Test.srt */; };
+		2B9623D41D34FF5600EFCC1E /* TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9623D21D34FF5600EFCC1E /* TimerTests.swift */; };
+		2B9623D61D3502EE00EFCC1E /* SubtitlePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9623D51D3502EE00EFCC1E /* SubtitlePlayer.swift */; };
+		2B9623D71D35065200EFCC1E /* SubtitlePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9623D51D3502EE00EFCC1E /* SubtitlePlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,8 @@
 		2B2F20551D1383C5000A7A51 /* SubtitleIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtitleIO.swift; sourceTree = "<group>"; };
 		2B2F20561D1383C5000A7A51 /* XMen.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XMen.srt; sourceTree = "<group>"; };
 		2B2F20571D1383C5000A7A51 /* Test.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Test.srt; sourceTree = "<group>"; };
+		2B9623D21D34FF5600EFCC1E /* TimerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerTests.swift; sourceTree = "<group>"; };
+		2B9623D51D3502EE00EFCC1E /* SubtitlePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtitlePlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,7 @@
 				2B2F20551D1383C5000A7A51 /* SubtitleIO.swift */,
 				2B2F20561D1383C5000A7A51 /* XMen.srt */,
 				2B2F20571D1383C5000A7A51 /* Test.srt */,
+				2B9623D51D3502EE00EFCC1E /* SubtitlePlayer.swift */,
 			);
 			path = JazzHands;
 			sourceTree = "<group>";
@@ -118,6 +124,7 @@
 			children = (
 				2B2F20431D138341000A7A51 /* JazzHandsTests.swift */,
 				2B2F20451D138341000A7A51 /* Info.plist */,
+				2B9623D21D34FF5600EFCC1E /* TimerTests.swift */,
 			);
 			path = JazzHandsTests;
 			sourceTree = "<group>";
@@ -232,6 +239,7 @@
 			files = (
 				2B2F205C1D1383C5000A7A51 /* Stanza.swift in Sources */,
 				2B2F202F1D138341000A7A51 /* AppDelegate.swift in Sources */,
+				2B9623D61D3502EE00EFCC1E /* SubtitlePlayer.swift in Sources */,
 				2B2F20581D1383C5000A7A51 /* SRTTimeEntry.swift in Sources */,
 				2B2F20601D1383C5000A7A51 /* SubtitleIO.swift in Sources */,
 				2B2F205A1D1383C5000A7A51 /* ScrollingSRTViewController.swift in Sources */,
@@ -243,7 +251,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B9623D71D35065200EFCC1E /* SubtitlePlayer.swift in Sources */,
 				2B2F205D1D1383C5000A7A51 /* Stanza.swift in Sources */,
+				2B9623D41D34FF5600EFCC1E /* TimerTests.swift in Sources */,
 				2B2F20441D138341000A7A51 /* JazzHandsTests.swift in Sources */,
 				2B2F20591D1383C5000A7A51 /* SRTTimeEntry.swift in Sources */,
 				2B2F20611D1383C5000A7A51 /* SubtitleIO.swift in Sources */,
@@ -422,6 +432,7 @@
 				2B2F204A1D138341000A7A51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B2F204B1D138341000A7A51 /* Build configuration list for PBXNativeTarget "JazzHandsTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +441,7 @@
 				2B2F204D1D138341000A7A51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

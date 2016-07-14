@@ -18,8 +18,14 @@ class ScrollingSRTViewController: UITableViewController {
       subtitleIO = SubtitleIO()
       let rawSubtitleStanzas = subtitleIO.openSRTFile("XMen")
       subtitle = Subtitle(subtitleText: rawSubtitleStanzas)
+      
+    
     }
 
+  
+  func userDidTap(){
+    print("user tapped")
+  }
 
     // MARK: - Table view data source
 
@@ -38,19 +44,23 @@ class ScrollingSRTViewController: UITableViewController {
 //      print(label.text)
 //      print(label.bounds.size.height)
 
+      let gesture = UITapGestureRecognizer(target: self, action: #selector(userDidTap))
+      cell.addGestureRecognizer(gesture)
         return cell
     }
   
   override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat
   {
-    print("getting height for cell \(indexPath.row)")
+//    print("getting height for cell \(indexPath.row)")
     if let labelView = tableView.viewWithTag(100) {
       let stanza: Stanza = subtitle.stanzas[indexPath.row]
       let label = labelView as! UILabel
+      
       let attributedString = formatStanza(stanza)
       label.attributedText = attributedString
-      print(label.text)
-      print(label.bounds.size.height)
+      
+//      print(label.text)
+//      print(label.bounds.size.height)
       if let cellHeight = stanza.duration  {
         return (CGFloat(cellHeight) * 50)
       }
