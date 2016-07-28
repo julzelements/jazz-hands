@@ -25,6 +25,7 @@ class ScrollingSRTViewController: UITableViewController {
   
   func userDidTap(){
     print("user tapped")
+    performSegueWithIdentifier("landscapeSegue", sender: self)
   }
 
     // MARK: - Table view data source
